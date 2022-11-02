@@ -24,12 +24,13 @@ Users should be able to:
 ### Screenshot
 
 ![mobile-view](./screenshot/mobile-version.png)
+![active-view](./screenshot/active-version.png)
 ![desktop-view](./screenshot/desktop-version.png)
 
 ### Links
 
 - Solution URL: [https://www.frontendmentor.io/solutions/qr-code-component-jZhaU32FdO](https://www.frontendmentor.io/solutions/qr-code-component-jZhaU32FdO)
-- Live Site URL: [https://nt-squared.github.io/QR-code-component/](https://nt-squared.github.io/QR-code-component/)
+- Live Site URL: [https://nt-squared.github.io/NFT-preview-card-component/](https://nt-squared.github.io/NFT-preview-card-component/)
 
 ## My process
 
