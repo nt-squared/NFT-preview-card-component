@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+@import "variables.scss";
+
+
+
+body {
+    background-color: $color-bg-main;
+    font-family: $ff-base;
+    font-size: $fs-base;
+    line-height: 1.5;
+    font-weight: $fw-300;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+main {
+    width: min(100vw - 3rem, 30ch);
+    margin-inline: auto;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 
+        0 20px 10px 10px rgba(0 0 0 / .1),
+        0 10px 40px 40px rgba(255 255 255 / .01);
+}
+
+.card {
+    background-color: $color-bg-card;
+    color: $color-text-primary;
+    padding: 1.2em;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+    
+    & .card-image {
+        border-radius: 10px;
+        overflow: hidden;
+
+        & img {
+            display: block;
+            max-width: 100%;
+            height: auto;
+        }
+    }
+
+    & .card-header {
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+
+        & h2 {
+            color: $color-text-neutral;
+            font-weight: $fw-600;
+            font-size: 1.2em;
+            line-height: 1.1;
+        }
+    }
+
+    & .card-body {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        & .card-body-item {
+            display: flex;
+            gap: 0.5em;
+
+            &.left {
+                color: $color-text-secondary;
+                font-weight: $fw-400;
+            }
+        }
+    }
+
+    & .card-footer {
+        display: flex;
+        align-items: center;
+        gap: .8em;
+        border-block-start: 1px solid $color-line;
+
+        & img {
+            width: 35px;
+            height: 35px;
+            margin-block: .8em;
+            border: 1px solid $color-text-neutral;
+            border-radius: 50%;
+        }
+
+        & .creator {
+            color: $color-text-neutral;
+            font-weight: $fw-400;
+        }
+    }
+}

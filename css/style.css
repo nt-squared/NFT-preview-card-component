@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+body {
+  background-color: hsl(217deg, 54%, 11%);
+  font-family: "Outfit", sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+main {
+  width: min(100vw - 3rem, 30ch);
+  margin-inline: auto;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 20px 10px 10px rgba(0, 0, 0, 0.1), 0 10px 40px 40px rgba(255, 255, 255, 0.01);
+}
+
+.card {
+  background-color: hsl(216deg, 50%, 16%);
+  color: hsl(215deg, 51%, 70%);
+  padding: 1.2em;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em;
+}
+.card .card-image {
+  border-radius: 10px;
+  overflow: hidden;
+}
+.card .card-image img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.card .card-header {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+.card .card-header h2 {
+  color: hsl(0deg, 0%, 100%);
+  font-weight: 600;
+  font-size: 1.2em;
+  line-height: 1.1;
+}
+.card .card-body {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.card .card-body .card-body-item {
+  display: flex;
+  gap: 0.5em;
+}
+.card .card-body .card-body-item.left {
+  color: hsl(178deg, 100%, 50%);
+  font-weight: 400;
+}
+.card .card-footer {
+  display: flex;
+  align-items: center;
+  gap: 0.8em;
+  border-block-start: 1px solid hsl(215deg, 32%, 27%);
+}
+.card .card-footer img {
+  width: 35px;
+  height: 35px;
+  margin-block: 0.8em;
+  border: 1px solid hsl(0deg, 0%, 100%);
+  border-radius: 50%;
+}
+.card .card-footer .creator {
+  color: hsl(0deg, 0%, 100%);
+  font-weight: 400;
+}
+
+/*# sourceMappingURL=style.css.map */
